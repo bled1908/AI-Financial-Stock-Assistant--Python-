@@ -1,0 +1,29 @@
+# Ignore API key file
+API_KEY
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDE files
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Local configuration
+.env
+.env.local
