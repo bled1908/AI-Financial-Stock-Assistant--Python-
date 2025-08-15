@@ -213,4 +213,4 @@ if user_input:
                 'content': response_message['content']
             })
     except Exception as e:
-        raise e
+        st.text('Error occurred: ' + str(e))
